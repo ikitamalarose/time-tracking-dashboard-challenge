@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Design preview for the Time tracking dashboard coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Time tracking dashboard coding challenge](./design/desktop-preview.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Repository](https://github.com/ikitamalarose/time-tracking-dashboard-challenge.git)
+- Live Site URL: [Go to the site](https://time-tracking-dashboard-challenge-sooty.vercel.app/)
 
 ## My process
 
@@ -47,17 +47,18 @@ Users should be able to:
 ### What I learned
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+    <script defer src="/main.js" type="module"></script>
 ```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
+
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+fetch('/data.json')
+    .then(response => response.json())
+    .then(data => {
+
+      console.log(data);
+    })
+    .catch(error => console.error('Error fetching the JSON data:', error));
+});
 ```
 
 ## Author

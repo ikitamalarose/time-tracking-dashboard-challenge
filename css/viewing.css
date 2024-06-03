@@ -1,0 +1,77 @@
+.card__container {
+    border-radius: 15px;
+    position: relative;
+}
+
+.card__container-work {
+    background-color: var(--Light-red-work);
+}
+
+.card__container-play {
+    background-color: var(--Soft-blue);
+}
+
+.card__container-study {
+    background-color: var(--Light-red);
+}
+
+.card__container-exercise {
+    background-color: var(--Lime-green);
+}
+
+.card__container-social {
+    background-color: var(--Violet);
+}
+
+.card__container-self-care {
+    background-color: var(--Soft-orange);
+}
+
+.card__background {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    position: relative;
+    overflow: hidden;
+    height: 4.875rem;
+}
+
+.background-image {
+    width: 4.875rem;
+    height: 4.875rem;
+
+    position: absolute;
+    top: -0.3rem;
+    right: 1rem;
+}
+
+.card {
+    background-color: var(--Dark-blue);
+    border-radius: 15px;
+    position: absolute;
+    top: 3rem;
+}
+
+.card__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title {
+    color: #FFFFFF;
+}
+
+.button-details {
+    background: none;
+    border: none;
+}
+
+.total-hours {
+    color: #FFFFFF;
+}
+
+.card__footer {
+    font-size: 0.938rem;
+}

@@ -1,0 +1,42 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    background-color: #1C204B;
+    border-radius: 15px;
+}
+
+.user-infos {
+    border-radius: 15px;
+    background-color: var(--Blue);
+    color: #FFFFFF;
+}
+
+.user-image {
+    border-radius: 50%;
+    border: 3px solid #FFFFFF;
+}
+
+.user-infos .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.report {
+    font-size: 0.938rem;
+    color: #BBC0FF;
+}
+
+.user-options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.option-item {
+    list-style: none;
+    color: #7078C9;
+}
+
+.option-item.active {
+    color: #FFFFFF;
+}
